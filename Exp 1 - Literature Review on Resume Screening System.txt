@@ -1,0 +1,43 @@
+M. Tikhonova and A. Gavrishchuk, "NLP methods for automatic candidate’s CV segmentation," 2019 International Conference on Engineering and Telecommunication (EnT), 2019, pp. 1-5, doi: 10.1109/EnT47717.2019.9030535.
+
+The article proposes an algorithm for automatic CV parsing that is extraction information about work experience, education, and basic info, which is based on Natural Language Processing methods. For each text line in a CV, it is predicted whether it contains information about work experience or education and then CV segmentation into 3 blocks (basic Information, education, and work experience) is performed.
+Algorithm:
+For each line, the proposed algorithm performs a three-class classification (basic information, education, or work experience) and, therefore, a CV could be separated into segments, where each segment corresponds to adjacent lines of the same type.
+The CV segmentation procedure consists of 7 consecutive steps:
+Step 1. CV prepossessing and transformation
+Step 2. Word embeddings construction
+Step 3. Computation of tf-idf index
+Step 4. Text field embeddings construction
+Step 5. Specific features extraction
+Step 6. Text Line classification
+Step 7. Final CV segmentation
+
+
+S. K. Kopparapu, "Automatic extraction of usable information from unstructured resumes to aid search," 2010 IEEE International Conference on Progress in Informatics and Computing, 2010, pp. 99-103, doi: 10.1109/PIC.2010.5687428.
+
+This system described in this paper is capable of processing resumes in a multitude of formats and forms and building an electronic database from the resume. The system aims to aid a large enterprise by removing the manual effort in screening resumes received by them to ascertain the suitability of candidates.
+The system is a web-based client-server which is capable of automatically extracting information from resumes in the English language and populating a structured database. The complete system consists of several modules.
+The modules are as follows:
+1.Resume input module
+2.Information extraction module
+3.Database build module
+4.Search module
+
+
+E. S. Chifu, V. R. Chifu, I. Popa and I. Salomie, "A system for detecting professional skills from resumes written in natural language," 2017 13th IEEE International Conference on Intelligent Computer Communication and Processing (ICCP), 2017, pp. 189-196, doi: 10.1109/ICCP.2017.8117003.
+
+This paper introduces a new method for detecting professional skills (as noun phrases) from resumes. The proposed method uses an ontology of skills, the Wikipedia encyclopedia, and a set of standard multi word part-of-speech patterns in order to detect the professional skills. First, the method checks to see if there are, in the text of the resumes, skills that are concepts in our ontology. The method also tries to identify possible new skills, which are not present in our ontology. This is done with the help of some specific, lexicalized, multi-word expression patterns (i.e. specific contexts) that could surround new, unknown skills. The specific expression patterns (specific contexts) are induced by training from a corpus of resumes. This induction of the possible specific contexts for new skills is based on a set of standard, generic part-of-speech patterns (found by hand) that usually contain the skills already present in the ontology. The skill extraction method is based on a bootstrapping approach. The newly detected skills are validated by a human expert and then inserted automatically into the skill ontology. Populating the ontology with the new skills is performed with the help of the Wikipedia encyclopedia.
+
+Architecture of the system
+1.The Crawler Module
+2.The Specific Pattern Induction Module
+3.The Skill Detection Module
+4.The Ontology Update Module
+Algorithms used:
+1.Induction Algorithm for Generating the Specific, Lexicalized Contexts
+2.Algorithm for Suggesting Taxonomic Parents
+
+
+
+
+
